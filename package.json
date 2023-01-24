@@ -1,0 +1,32 @@
+{
+  "name": "@stevenmontoya/component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/stevenmontoya"
+  },
+  "version": "0.0.1",
+  "description": "A simple template for a custom React compone",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.27",
+    "react": "^18.2.0",
+    "rollup": "^3.10.1",
+    "rollup-plugin-dts": "^5.1.1",
+    "typescript": "^4.9.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.0",
+    "tslib": "^2.4.1"
+  }
+}
