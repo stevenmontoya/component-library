@@ -3,9 +3,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/stevenmontoya"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple template for a custom React compone",
-  "type": "module",
   "scripts": {
     "rollup": "rollup -c"
   },
